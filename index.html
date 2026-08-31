@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Felix Raja S - Frontend Development Intern and Computer Science Graduate Portfolio. Explore my skills in C, C++, Java, Web Development, and testing.">
-    <meta name="keywords" content="Felix Raja, Felix Raja S, Frontend Developer, Web Developer, Portfolio, Computer Science, C, C++, Java, Dindigul, QYRA Tech">
+    <meta name="description"
+        content="Felix Raja S - Frontend Development Intern and Computer Science Graduate Portfolio. Explore my skills in C, C++, Java, Web Development, and testing.">
+    <meta name="keywords"
+        content="Felix Raja, Felix Raja S, Frontend Developer, Web Developer, Portfolio, Computer Science, C, C++, Java, Dindigul, QYRA Tech">
     <meta name="author" content="Felix Raja S">
     <title>Felix Raja S | Frontend Developer & Computer Science Graduate</title>
-    
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <!-- Cursor Tracking Background Glow -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
     <!-- Custom Scroll Progress Bar -->
     <div class="scroll-progress" id="scrollProgress"></div>
 
@@ -27,9 +36,10 @@
     <header class="header">
         <div class="nav-container">
             <a href="#hero" class="logo">
-                <span class="logo-accent">&lt;</span>Felix <span class="logo-bold">Raja</span><span class="logo-accent">/&gt;</span>
+                <span class="logo-accent">&lt;</span>Felix <span class="logo-bold">Raja</span><span
+                    class="logo-accent">/&gt;</span>
             </a>
-            
+
             <nav class="nav-links" id="navLinks">
                 <a href="#hero" class="nav-link active">Home</a>
                 <a href="#about" class="nav-link">About</a>
@@ -38,13 +48,13 @@
                 <a href="#projects" class="nav-link">Projects</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </nav>
-            
+
             <div class="nav-actions">
                 <!-- Theme Toggle Switch -->
                 <button id="themeToggle" class="theme-btn" aria-label="Toggle light/dark theme">
                     <i class="fa-solid fa-moon"></i>
                 </button>
-                
+
                 <!-- Hamburg Menu (Mobile) -->
                 <button class="burger" id="burgerMenu" aria-label="Open menu">
                     <span class="line line1"></span>
@@ -59,6 +69,13 @@
     <main>
         <!-- Hero Section -->
         <section id="hero" class="hero-section">
+            <!-- Floating Background Particles -->
+            <div class="floating-particles">
+                <div class="particle shape-1"></div>
+                <div class="particle shape-2"></div>
+                <div class="particle shape-3"></div>
+            </div>
+
             <div class="section-container hero-container">
                 <div class="hero-content">
                     <span class="hero-welcome">Welcome to my space</span>
@@ -66,22 +83,26 @@
                         Hi, I am <span class="highlight">Felix Raja S</span>
                     </h1>
                     <h2 class="hero-subtitle">
-                        I am a <span class="typing-text" id="typingText">Frontend Developer</span><span class="cursor">|</span>
+                        I am a <span class="typing-text" id="typingText">Frontend Developer</span><span
+                            class="cursor">|</span>
                     </h2>
                     <p class="hero-desc">
-                        A passionate Computer Science graduate and developer seeking an opportunity in the IT industry. I love translating ideas into clean, pixel-perfect, and highly interactive user interfaces.
+                        A passionate Computer Science graduate and developer seeking an opportunity in the IT industry.
+                        I love translating ideas into clean, pixel-perfect, and highly interactive user interfaces.
                     </p>
                     <div class="hero-cta">
                         <a href="#contact" class="btn btn-primary" id="btnGetInTouch">Get In Touch</a>
-                        <button class="btn btn-secondary" id="btnOpenResume">
-                            <i class="fa-solid fa-file-pdf"></i> View Resume
-                        </button>
+                        <a href="assets/resume.pdf" download="resume.jpg" target="_blank">
+                            <button class="btn btn-secondary">
+                                <i class="fa-solid fa-file-pdf"></i> View Resume
+                            </button>
+                        </a>
                     </div>
                 </div>
                 <div class="hero-visual">
                     <div class="profile-frame">
                         <div class="glow-bg"></div>
-                        <img src="assets/profile.jpg" alt="Felix Raja S Portrait" class="profile-img">
+                        <img src="assets/photo.png" alt="Felix Raja S Portrait" class="profile-img">
                     </div>
                 </div>
             </div>
@@ -99,17 +120,22 @@
                     <h2 class="section-title">About Me</h2>
                     <div class="title-underline"></div>
                 </div>
-                
+
                 <div class="about-grid">
                     <div class="about-info">
                         <h3>My Story</h3>
                         <p class="about-text">
-                            I am a recent **B.Sc Computer Science** graduate and a fresher seeking an opportunity in the IT industry. I possess basic programming knowledge, computer application skills, and good communication abilities. 
+                            I am a recent **B.Sc Computer Science** graduate and a fresher seeking an opportunity in the
+                            IT industry. I possess basic programming knowledge, computer application skills, and good
+                            communication abilities.
                         </p>
                         <p class="about-text">
-                            As a quick learner who is hardworking and eager to enhance my technical expertise, I am looking to contribute to organizational growth while building premium experiences. My primary focus is on frontend engineering, and I enjoy using modern tools to build interactive webs.
+                            As a quick learner who is hardworking and eager to enhance my technical expertise, I am
+                            looking to contribute to organizational growth while building premium experiences. My
+                            primary focus is on frontend engineering, and I enjoy using modern tools to build
+                            interactive webs.
                         </p>
-                        
+
                         <div class="personal-details-grid">
                             <div class="detail-item">
                                 <span class="detail-label">Location</span>
@@ -129,7 +155,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="about-timeline">
                         <h3>Education</h3>
                         <div class="timeline">
@@ -138,15 +164,18 @@
                                 <div class="timeline-date">2023 - 2026</div>
                                 <h4 class="timeline-title">B.Sc Computer Science</h4>
                                 <p class="timeline-subtitle">Sacred Heart College of Arts and Science</p>
-                                <p class="timeline-desc">Graduated with a strong foundation in core computer science subjects, including software engineering principles, databases, data structures, and computer applications.</p>
+                                <p class="timeline-desc">Graduated with a strong foundation in core computer science
+                                    subjects, including software engineering principles, databases, data structures, and
+                                    computer applications.</p>
                             </div>
-                            
+
                             <div class="timeline-item">
                                 <div class="timeline-dot"></div>
                                 <div class="timeline-date">Completed in 2023</div>
                                 <h4 class="timeline-title">Higher Secondary Education</h4>
                                 <p class="timeline-subtitle">CSMA Higher Secondary School</p>
-                                <p class="timeline-desc">Specialized in Computer Science, Math, Physics, and Chemistry, completing secondary schooling at MM Kovilur.</p>
+                                <p class="timeline-desc">Specialized in Computer Science, Math, Physics, and Chemistry,
+                                    completing secondary schooling at MM Kovilur.</p>
                             </div>
                         </div>
                     </div>
@@ -162,7 +191,7 @@
                     <h2 class="section-title">Work Experience</h2>
                     <div class="title-underline"></div>
                 </div>
-                
+
                 <div class="experience-layout">
                     <div class="experience-card">
                         <div class="exp-header">
@@ -172,18 +201,24 @@
                             <div class="exp-meta">
                                 <h3 class="exp-title">Frontend Development Intern</h3>
                                 <p class="exp-company">QYRA Tech</p>
-                                <span class="exp-duration"><i class="fa-regular fa-calendar-days"></i> 2025 (Internship)</span>
+                                <span class="exp-duration"><i class="fa-regular fa-calendar-days"></i> 2025
+                                    (Internship)</span>
                             </div>
                         </div>
                         <div class="exp-body">
                             <p class="exp-intro">
-                                Gained hands-on professional industry experience building web components and optimizing frontend performance.
+                                Gained hands-on professional industry experience building web components and optimizing
+                                frontend performance.
                             </p>
                             <ul class="exp-list">
-                                <li>Collaborated on building responsive web templates using HTML, CSS, and JavaScript.</li>
-                                <li>Debugged, tested, and resolved cross-browser compatibility issues across modern web layouts.</li>
-                                <li>Learned modern development workflows, version control with Git, and collaborative code reviews.</li>
-                                <li>Optimized page performance and web accessibility best practices to improve user experience metrics.</li>
+                                <li>Collaborated on building responsive web templates using HTML, CSS, and JavaScript.
+                                </li>
+                                <li>Debugged, tested, and resolved cross-browser compatibility issues across modern web
+                                    layouts.</li>
+                                <li>Learned modern development workflows, version control with Git, and collaborative
+                                    code reviews.</li>
+                                <li>Optimized page performance and web accessibility best practices to improve user
+                                    experience metrics.</li>
                             </ul>
                         </div>
                     </div>
@@ -199,59 +234,99 @@
                     <h2 class="section-title">My Skills</h2>
                     <div class="title-underline"></div>
                 </div>
-                
+
                 <div class="skills-wrapper">
                     <!-- Technical Skills -->
                     <div class="skills-category-box">
                         <h3 class="skills-box-title"><i class="fa-solid fa-laptop-code"></i> Technical Skills</h3>
                         <div class="skills-grid">
-                            <div class="skill-card">
-                                <div class="skill-icon-wrap"><i class="fa-brands fa-html5 skill-icon html-color"></i></div>
-                                <h4>HTML5 & CSS3</h4>
-                                <p class="skill-level">Proficient</p>
-                                <div class="skill-progress-bar"><div class="progress" style="width: 85%"></div></div>
+                            <div class="holographic-container">
+                                <div class="holographic-card">
+                                    <div class="skill-icon-wrap"><i
+                                            class="fa-brands fa-html5 skill-icon html-color"></i>
+                                    </div>
+                                    <h4>HTML5 & CSS3</h4>
+                                    <p class="skill-level">Proficient</p>
+                                    <div class="skill-progress-bar">
+                                        <div class="progress" style="--width: 85%"></div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="skill-card">
-                                <div class="skill-icon-wrap"><i class="fa-brands fa-js skill-icon js-color"></i></div>
-                                <h4>JavaScript</h4>
-                                <p class="skill-level">Intermediate</p>
-                                <div class="skill-progress-bar"><div class="progress" style="width: 75%"></div></div>
+                            <div class="holographic-container">
+                                <div class="holographic-card">
+                                    <div class="skill-icon-wrap"><i class="fa-brands fa-js skill-icon js-color"></i>
+                                    </div>
+                                    <h4>JavaScript</h4>
+                                    <p class="skill-level">Intermediate</p>
+                                    <div class="skill-progress-bar">
+                                        <div class="progress" style="--width: 75%"></div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="skill-card">
-                                <div class="skill-icon-wrap"><span class="custom-icon c-color">C</span></div>
-                                <h4>C Programming</h4>
-                                <p class="skill-level">Intermediate</p>
-                                <div class="skill-progress-bar"><div class="progress" style="width: 70%"></div></div>
+                            <div class="holographic-container">
+                                <div class="holographic-card">
+                                    <div class="skill-icon-wrap"><span class="custom-icon c-color">C</span></div>
+                                    <h4>C Programming</h4>
+                                    <p class="skill-level">Intermediate</p>
+                                    <div class="skill-progress-bar">
+                                        <div class="progress" style="--width: 70%"></div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="skill-card">
-                                <div class="skill-icon-wrap"><span class="custom-icon cpp-color">C++</span></div>
-                                <h4>C++ Language</h4>
-                                <p class="skill-level">Intermediate</p>
-                                <div class="skill-progress-bar"><div class="progress" style="width: 65%"></div></div>
+                            <div class="holographic-container">
+                                <div class="holographic-card">
+                                    <div class="skill-icon-wrap"><span class="custom-icon cpp-color">C++</span></div>
+                                    <h4>C++ Language</h4>
+                                    <p class="skill-level">Intermediate</p>
+                                    <div class="skill-progress-bar">
+                                        <div class="progress" style="--width: 65%"></div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="skill-card">
-                                <div class="skill-icon-wrap"><i class="fa-brands fa-java skill-icon java-color"></i></div>
-                                <h4>Java Language</h4>
-                                <p class="skill-level">Intermediate</p>
-                                <div class="skill-progress-bar"><div class="progress" style="width: 65%"></div></div>
+                            <div class="holographic-container">
+                                <div class="holographic-card">
+                                    <div class="skill-icon-wrap"><i class="fa-brands fa-java skill-icon java-color"></i>
+                                    </div>
+                                    <h4>Java Language</h4>
+                                    <p class="skill-level">Intermediate</p>
+                                    <div class="skill-progress-bar">
+                                        <div class="progress" style="--width: 65%"></div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="skill-card">
-                                <div class="skill-icon-wrap"><i class="fa-solid fa-bug-slash skill-icon test-color"></i></div>
-                                <h4>Software Testing</h4>
-                                <p class="skill-level">Basics</p>
-                                <div class="skill-progress-bar"><div class="progress" style="width: 60%"></div></div>
+                            <div class="holographic-container">
+                                <div class="holographic-card">
+                                    <div class="skill-icon-wrap"><i
+                                            class="fa-solid fa-bug-slash skill-icon test-color"></i>
+                                    </div>
+                                    <h4>Software Testing</h4>
+                                    <p class="skill-level">Basics</p>
+                                    <div class="skill-progress-bar">
+                                        <div class="progress" style="--width: 60%"></div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="skill-card">
-                                <div class="skill-icon-wrap"><i class="fa-regular fa-file-word skill-icon word-color"></i></div>
-                                <h4>MS Office Suite</h4>
-                                <p class="skill-level">Experienced</p>
-                                <div class="skill-progress-bar"><div class="progress" style="width: 80%"></div></div>
+                            <div class="holographic-container">
+                                <div class="holographic-card">
+                                    <div class="skill-icon-wrap"><i
+                                            class="fa-regular fa-file-word skill-icon word-color"></i></div>
+                                    <h4>MS Office Suite</h4>
+                                    <p class="skill-level">Experienced</p>
+                                    <div class="skill-progress-bar">
+                                        <div class="progress" style="--width: 80%"></div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="skill-card">
-                                <div class="skill-icon-wrap"><i class="fa-solid fa-network-wired skill-icon computer-color"></i></div>
-                                <h4>Computer Knowledge</h4>
-                                <p class="skill-level">Comprehensive</p>
-                                <div class="skill-progress-bar"><div class="progress" style="width: 85%"></div></div>
+                            <div class="holographic-container">
+                                <div class="holographic-card">
+                                    <div class="skill-icon-wrap"><i
+                                            class="fa-solid fa-network-wired skill-icon computer-color"></i></div>
+                                    <h4>Computer Knowledge</h4>
+                                    <p class="skill-level">Comprehensive</p>
+                                    <div class="skill-progress-bar">
+                                        <div class="progress" style="--width: 85%"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -264,28 +339,32 @@
                                 <div class="attr-icon"><i class="fa-solid fa-rocket"></i></div>
                                 <div class="attr-text">
                                     <h4>Quick Learner</h4>
-                                    <p>Adapts rapidly to new technologies, syntaxes, framework architectures, and development environments.</p>
+                                    <p>Adapts rapidly to new technologies, syntaxes, framework architectures, and
+                                        development environments.</p>
                                 </div>
                             </div>
                             <div class="attr-item">
                                 <div class="attr-icon"><i class="fa-solid fa-people-group"></i></div>
                                 <div class="attr-text">
                                     <h4>Teamwork & Collaboration</h4>
-                                    <p>Thrives in dynamic engineering teams, aligning individual goals with the group's milestones.</p>
+                                    <p>Thrives in dynamic engineering teams, aligning individual goals with the group's
+                                        milestones.</p>
                                 </div>
                             </div>
                             <div class="attr-item">
                                 <div class="attr-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
                                 <div class="attr-text">
                                     <h4>Hardworking & Committed</h4>
-                                    <p>Dedicates the energy and meticulous focus required to build clean structures and robust codebases.</p>
+                                    <p>Dedicates the energy and meticulous focus required to build clean structures and
+                                        robust codebases.</p>
                                 </div>
                             </div>
                             <div class="attr-item">
                                 <div class="attr-icon"><i class="fa-solid fa-comments"></i></div>
                                 <div class="attr-text">
                                     <h4>Communication Skills</h4>
-                                    <p>Articulates code solutions, design logic, and concepts clearly to technical and non-technical peers.</p>
+                                    <p>Articulates code solutions, design logic, and concepts clearly to technical and
+                                        non-technical peers.</p>
                                 </div>
                             </div>
                         </div>
@@ -302,7 +381,7 @@
                     <h2 class="section-title">Featured Projects</h2>
                     <div class="title-underline"></div>
                 </div>
-                
+
                 <div class="projects-grid">
                     <!-- Project 1 -->
                     <div class="project-card">
@@ -315,7 +394,8 @@
                         </div>
                         <div class="project-info">
                             <h3 class="project-title">QYRA Tech Landing Hub</h3>
-                            <p class="project-desc">A premium, high-performance corporate landing web template developed with advanced micro-animations, theme toggles, and dynamic asset layouts.</p>
+                            <p class="project-desc">A premium, high-performance corporate landing web template developed
+                                with advanced micro-animations, theme toggles, and dynamic asset layouts.</p>
                             <div class="project-tech">
                                 <span>HTML5</span>
                                 <span>CSS3</span>
@@ -335,7 +415,8 @@
                         </div>
                         <div class="project-info">
                             <h3 class="project-title">Algorithms Visualizer</h3>
-                            <p class="project-desc">A graphical sorting and pathfinding visualizer program, displaying procedural step-by-step logic designed to clarify algorithm performance curves.</p>
+                            <p class="project-desc">A graphical sorting and pathfinding visualizer program, displaying
+                                procedural step-by-step logic designed to clarify algorithm performance curves.</p>
                             <div class="project-tech">
                                 <span>Java</span>
                                 <span>C++</span>
@@ -355,7 +436,8 @@
                         </div>
                         <div class="project-info">
                             <h3 class="project-title">Web Quality Assurer</h3>
-                            <p class="project-desc">A basic automated UI and unit testing dashboard simulating black-box and integration checks on static site web forms and components.</p>
+                            <p class="project-desc">A basic automated UI and unit testing dashboard simulating black-box
+                                and integration checks on static site web forms and components.</p>
                             <div class="project-tech">
                                 <span>JavaScript</span>
                                 <span>Jest Basics</span>
@@ -375,14 +457,15 @@
                     <h2 class="section-title">Contact Me</h2>
                     <div class="title-underline"></div>
                 </div>
-                
+
                 <div class="contact-grid">
                     <div class="contact-info-panel">
                         <h3>Let's Connect</h3>
                         <p class="contact-lead-text">
-                            I am actively seeking internship opportunities, junior developer roles, or project collaborations. My inbox is always open.
+                            I am actively seeking internship opportunities, junior developer roles, or project
+                            collaborations. My inbox is always open.
                         </p>
-                        
+
                         <div class="contact-links-list">
                             <a href="mailto:felixraja2006@gmail.com" class="contact-link-item">
                                 <div class="contact-link-icon"><i class="fa-solid fa-envelope"></i></div>
@@ -408,9 +491,14 @@
                         </div>
 
                         <div class="contact-social-row">
-                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-circle" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-circle" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
-                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-circle" aria-label="Twitter Profile"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+                                class="social-circle" aria-label="LinkedIn Profile"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-circle"
+                                aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
+                                class="social-circle" aria-label="Twitter Profile"><i
+                                    class="fa-brands fa-twitter"></i></a>
                         </div>
                     </div>
 
@@ -424,18 +512,21 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="formEmail">Email Address</label>
-                                    <input type="email" id="formEmail" name="email" placeholder="john@example.com" required>
+                                    <input type="email" id="formEmail" name="email" placeholder="john@example.com"
+                                        required>
                                     <span class="error-msg" id="emailError">Please enter a valid email</span>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="formSubject">Subject</label>
-                                    <input type="text" id="formSubject" name="subject" placeholder="Project Discussion" required>
-                                    <span class="error-msg" id="subjectError">Subject is required</span>
+                                <input type="text" id="formSubject" name="subject" placeholder="Project Discussion"
+                                    required>
+                                <span class="error-msg" id="subjectError">Subject is required</span>
                             </div>
                             <div class="form-group">
                                 <label for="formMessage">Message</label>
-                                <textarea id="formMessage" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                                <textarea id="formMessage" name="message" rows="5"
+                                    placeholder="Write your message here..." required></textarea>
                                 <span class="error-msg" id="messageError">Message content is required</span>
                             </div>
                             <button type="submit" class="btn btn-primary btn-submit" id="btnFormSubmit">
@@ -454,7 +545,8 @@
         <div class="footer-container">
             <p class="copyright">&copy; 2026 Felix Raja S. All rights reserved.</p>
             <p class="footer-declaration">
-                <i class="fa-solid fa-award"></i> I hereby declare that the information provided above is true and correct to the best of my knowledge and belief.
+                <i class="fa-solid fa-award"></i> I hereby declare that the information provided above is true and
+                correct to the best of my knowledge and belief.
             </p>
         </div>
     </footer>
@@ -465,8 +557,9 @@
         <div class="modal-content-wrap">
             <div class="modal-header">
                 <h3 id="modalTitle">Curriculum Vitae - Felix Raja S</h3>
-                <div class="modal-actions">
-                    <a href="assets/resume.png" download="Felix_Raja_Resume.png" class="btn btn-small btn-primary" id="btnDownloadResume">
+                <div>
+                    <a href="assets/resume.pdf" download="resume_page-0001.jpb" target="_blank"
+                        class="btn btn-small btn-primary">
                         <i class="fa-solid fa-download"></i> Download
                     </a>
                     <button class="modal-close-btn" id="btnCloseModal" aria-label="Close modal">
@@ -475,7 +568,7 @@
                 </div>
             </div>
             <div class="modal-body">
-                <img src="assets/resume.png" alt="Felix Raja S Resume Document" class="modal-resume-img">
+                <img src="assets/Felix.jpg" alt="Felix Raja S Resume Document" class="modal-resume-img">
             </div>
         </div>
     </div>
@@ -495,4 +588,5 @@
     <!-- Custom Script -->
     <script src="script.js"></script>
 </body>
+
 </html>
