@@ -92,11 +92,9 @@
                     </p>
                     <div class="hero-cta">
                         <a href="#contact" class="btn btn-primary" id="btnGetInTouch">Get In Touch</a>
-                        <a href="assets/resume.pdf" download="resume.jpg" target="_blank">
-                            <button class="btn btn-secondary">
-                                <i class="fa-solid fa-file-pdf"></i> View Resume
-                            </button>
-                        </a>
+                        <button class="btn btn-secondary" id="btnOpenResume">
+                            <i class="fa-solid fa-file-pdf"></i> View Resume
+                        </button>
                     </div>
                 </div>
                 <div class="hero-visual">
@@ -159,6 +157,14 @@
                     <div class="about-timeline">
                         <h3>Education</h3>
                         <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-date">June 2026 - Present</div>
+                                <h4 class="timeline-title">Cloud Practitioner (AWS)</h4>
+                                <p class="timeline-subtitle">Don Bosco Skill Mission</p>
+                                <p class="timeline-desc">Intensive cloud computing training focused on Amazon Web Services (AWS) infrastructure, deployment, and cloud practices in Bangalore, Karnataka.</p>
+                            </div>
+
                             <div class="timeline-item">
                                 <div class="timeline-dot"></div>
                                 <div class="timeline-date">2023 - 2026</div>
@@ -245,10 +251,10 @@
                                     <div class="skill-icon-wrap"><i
                                             class="fa-brands fa-html5 skill-icon html-color"></i>
                                     </div>
-                                    <h4>HTML5 & CSS3</h4>
+                                    <h4>HTML & CSS</h4>
                                     <p class="skill-level">Proficient</p>
                                     <div class="skill-progress-bar">
-                                        <div class="progress" style="--width: 85%"></div>
+                                        <div class="progress" style="--width: 90%"></div>
                                     </div>
                                 </div>
                             </div>
@@ -259,14 +265,24 @@
                                     <h4>JavaScript</h4>
                                     <p class="skill-level">Intermediate</p>
                                     <div class="skill-progress-bar">
+                                        <div class="progress" style="--width: 80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="holographic-container">
+                                <div class="holographic-card">
+                                    <div class="skill-icon-wrap"><i class="fa-brands fa-python skill-icon python-color"></i></div>
+                                    <h4>Python</h4>
+                                    <p class="skill-level">Intermediate</p>
+                                    <div class="skill-progress-bar">
                                         <div class="progress" style="--width: 75%"></div>
                                     </div>
                                 </div>
                             </div>
                             <div class="holographic-container">
                                 <div class="holographic-card">
-                                    <div class="skill-icon-wrap"><span class="custom-icon c-color">C</span></div>
-                                    <h4>C Programming</h4>
+                                    <div class="skill-icon-wrap"><i class="fa-brands fa-linux skill-icon linux-color"></i></div>
+                                    <h4>Linux</h4>
                                     <p class="skill-level">Intermediate</p>
                                     <div class="skill-progress-bar">
                                         <div class="progress" style="--width: 70%"></div>
@@ -275,43 +291,10 @@
                             </div>
                             <div class="holographic-container">
                                 <div class="holographic-card">
-                                    <div class="skill-icon-wrap"><span class="custom-icon cpp-color">C++</span></div>
-                                    <h4>C++ Language</h4>
+                                    <div class="skill-icon-wrap"><i class="fa-solid fa-database skill-icon db-color"></i>
+                                    </div>
+                                    <h4>SQL & Databases</h4>
                                     <p class="skill-level">Intermediate</p>
-                                    <div class="skill-progress-bar">
-                                        <div class="progress" style="--width: 65%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="holographic-container">
-                                <div class="holographic-card">
-                                    <div class="skill-icon-wrap"><i class="fa-brands fa-java skill-icon java-color"></i>
-                                    </div>
-                                    <h4>Java Language</h4>
-                                    <p class="skill-level">Intermediate</p>
-                                    <div class="skill-progress-bar">
-                                        <div class="progress" style="--width: 65%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="holographic-container">
-                                <div class="holographic-card">
-                                    <div class="skill-icon-wrap"><i
-                                            class="fa-solid fa-bug-slash skill-icon test-color"></i>
-                                    </div>
-                                    <h4>Software Testing</h4>
-                                    <p class="skill-level">Basics</p>
-                                    <div class="skill-progress-bar">
-                                        <div class="progress" style="--width: 60%"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="holographic-container">
-                                <div class="holographic-card">
-                                    <div class="skill-icon-wrap"><i
-                                            class="fa-regular fa-file-word skill-icon word-color"></i></div>
-                                    <h4>MS Office Suite</h4>
-                                    <p class="skill-level">Experienced</p>
                                     <div class="skill-progress-bar">
                                         <div class="progress" style="--width: 80%"></div>
                                     </div>
@@ -320,11 +303,34 @@
                             <div class="holographic-container">
                                 <div class="holographic-card">
                                     <div class="skill-icon-wrap"><i
-                                            class="fa-solid fa-network-wired skill-icon computer-color"></i></div>
-                                    <h4>Computer Knowledge</h4>
-                                    <p class="skill-level">Comprehensive</p>
+                                            class="fa-brands fa-git-alt skill-icon git-color"></i>
+                                    </div>
+                                    <h4>Git & GitHub</h4>
+                                    <p class="skill-level">Intermediate</p>
                                     <div class="skill-progress-bar">
                                         <div class="progress" style="--width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="holographic-container">
+                                <div class="holographic-card">
+                                    <div class="skill-icon-wrap"><i
+                                            class="fa-solid fa-file-excel skill-icon excel-color"></i></div>
+                                    <h4>Microsoft Excel</h4>
+                                    <p class="skill-level">Experienced</p>
+                                    <div class="skill-progress-bar">
+                                        <div class="progress" style="--width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="holographic-container">
+                                <div class="holographic-card">
+                                    <div class="skill-icon-wrap"><i
+                                            class="fa-brands fa-aws skill-icon aws-color"></i></div>
+                                    <h4>AWS Cloud</h4>
+                                    <p class="skill-level">Basics</p>
+                                    <div class="skill-progress-bar">
+                                        <div class="progress" style="--width: 60%"></div>
                                     </div>
                                 </div>
                             </div>
@@ -368,6 +374,38 @@
                                 </div>
                             </div>
                         </div>
+
+                        <h3 class="skills-box-title" style="margin-top: 40px;"><i class="fa-solid fa-award"></i> Certifications</h3>
+                        <div class="certifications-list">
+                            <div class="cert-item">
+                                <div class="cert-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                                <div class="cert-text">
+                                    <h4>Frontend Development Internship</h4>
+                                    <p>QYRA Tech</p>
+                                </div>
+                            </div>
+                            <div class="cert-item">
+                                <div class="cert-icon"><i class="fa-brands fa-aws"></i></div>
+                                <div class="cert-text">
+                                    <h4>AWS Basics</h4>
+                                    <p>KodeKloud</p>
+                                </div>
+                            </div>
+                            <div class="cert-item">
+                                <div class="cert-icon"><i class="fa-brands fa-linux"></i></div>
+                                <div class="cert-text">
+                                    <h4>Linux For Absolute Beginners</h4>
+                                    <p>KodeKloud</p>
+                                </div>
+                            </div>
+                            <div class="cert-item">
+                                <div class="cert-icon"><i class="fa-solid fa-award"></i></div>
+                                <div class="cert-text">
+                                    <h4>AWS Cloud Quest</h4>
+                                    <p>Amazon Skill Builder</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -388,18 +426,27 @@
                         <div class="project-image-wrap">
                             <div class="project-overlay"></div>
                             <div class="project-icon-placeholder">
-                                <i class="fa-solid fa-compass-drafting"></i>
+                                <i class="fa-solid fa-laptop-code"></i>
                             </div>
-                            <span class="project-tag">Frontend</span>
+                            <span class="project-tag">Full-Stack</span>
                         </div>
                         <div class="project-info">
-                            <h3 class="project-title">QYRA Tech Landing Hub</h3>
-                            <p class="project-desc">A premium, high-performance corporate landing web template developed
-                                with advanced micro-animations, theme toggles, and dynamic asset layouts.</p>
+                            <h3 class="project-title">DBSM Student Management System</h3>
+                            <p class="project-desc">Developed a full-stack student management system with role-based Admin and Student access. Implemented student management, table allocation, student shuffling, food rotation, and Bible reading scheduling.</p>
                             <div class="project-tech">
-                                <span>HTML5</span>
-                                <span>CSS3</span>
-                                <span>ES6 JS</span>
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                                <span>PostgreSQL (Supabase)</span>
+                                <span>REST API</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://dbsm-management-theta.vercel.app/students" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                                </a>
+                                <a href="https://github.com/felixraja2006/DBSM-Management" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <i class="fa-brands fa-github"></i> GitHub
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -409,18 +456,26 @@
                         <div class="project-image-wrap">
                             <div class="project-overlay"></div>
                             <div class="project-icon-placeholder">
-                                <i class="fa-solid fa-square-root-variable"></i>
+                                <i class="fa-solid fa-globe"></i>
                             </div>
-                            <span class="project-tag">CS Core</span>
+                            <span class="project-tag">Frontend</span>
                         </div>
                         <div class="project-info">
-                            <h3 class="project-title">Algorithms Visualizer</h3>
-                            <p class="project-desc">A graphical sorting and pathfinding visualizer program, displaying
-                                procedural step-by-step logic designed to clarify algorithm performance curves.</p>
+                            <h3 class="project-title">DBSM Landing Page</h3>
+                            <p class="project-desc">Developed a responsive landing page for DBSM to showcase courses, training programs, and organizational information. Designed a clean, user-friendly interface.</p>
                             <div class="project-tech">
-                                <span>Java</span>
-                                <span>C++</span>
-                                <span>Graphics Lib</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>GitHub Pages</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://felixraja2006.github.io/DBSM-landing-page/" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                                </a>
+                                <a href="https://github.com/felixraja2006/DBSM-landing-page" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <i class="fa-brands fa-github"></i> GitHub
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -430,18 +485,22 @@
                         <div class="project-image-wrap">
                             <div class="project-overlay"></div>
                             <div class="project-icon-placeholder">
-                                <i class="fa-solid fa-code-compare"></i>
+                                <i class="fa-solid fa-compass-drafting"></i>
                             </div>
-                            <span class="project-tag">Testing</span>
+                            <span class="project-tag">Frontend</span>
                         </div>
                         <div class="project-info">
-                            <h3 class="project-title">Web Quality Assurer</h3>
-                            <p class="project-desc">A basic automated UI and unit testing dashboard simulating black-box
-                                and integration checks on static site web forms and components.</p>
+                            <h3 class="project-title">QYRA Tech Landing Hub</h3>
+                            <p class="project-desc">A premium, high-performance corporate landing web template developed with advanced micro-animations, theme toggles, and dynamic asset layouts during internship.</p>
                             <div class="project-tech">
-                                <span>JavaScript</span>
-                                <span>Jest Basics</span>
                                 <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>ES6 JS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <i class="fa-brands fa-github"></i> GitHub
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -558,7 +617,7 @@
             <div class="modal-header">
                 <h3 id="modalTitle">Curriculum Vitae - Felix Raja S</h3>
                 <div>
-                    <a href="assets/resume.pdf" download="resume_page-0001.jpb" target="_blank"
+                    <a href="assets/resume.pdf" download="Felix_Raja_Resume.pdf" target="_blank"
                         class="btn btn-small btn-primary">
                         <i class="fa-solid fa-download"></i> Download
                     </a>
@@ -568,7 +627,7 @@
                 </div>
             </div>
             <div class="modal-body">
-                <img src="assets/Felix.jpg" alt="Felix Raja S Resume Document" class="modal-resume-img">
+                <img src="assets/resume_page-0001.jpg" alt="Felix Raja S Resume Document" class="modal-resume-img">
             </div>
         </div>
     </div>
